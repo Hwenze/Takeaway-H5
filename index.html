@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>美团外卖</title>
+	<link rel="icon" type="image/x-icon" href="./img/favicon3.png"/>
+	<meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- 加载Boots核心样式 -->
+	<link rel="stylesheet" href="./bootscss/bootstrap.min.css">
+	<!-- 加载Boots（主题文件）可以不引入 -->
+	<link rel="stylesheet" href="./bootscss/bootstrap-theme.min.css" />
+	<!-- 加载独立CSS文件 -->
+	<link rel="stylesheet" href="./css/index.css">
+	<!-- 加载vue.js文件 -->
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+	<!-- 加载JQ -->
+	<script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script src="./js/bootstrap.min.js"></script>
+	<!-- 加载独立jS文件 -->
+	<script src="./js/index.js"></script>
+</head>
+<body>
+	<!-- 头部 -->
+	<header class="clearfix">
+		<div id="nav_top" class="navbar-fixed-top">
+			<div class="glyphicon glyphicon-chevron-left"></div>
+			<div class="nav_dian">
+				<p><b>肯德基宅急送(大塘店)</b></p>
+			</div>
+			<div class="nav_nav">
+				<ul>
+					<li><a href="#"><span><p>点菜</p></span></a></li>
+					<li><a href="#"><span>评价</span></a></li>
+					<li><a href="#"><span>商家</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<!-- 主体 -->
+	<main class="clearfix">
+		<div class="hengfu">
+			<span>欢迎光临肯德基宅急送，专业外送，全程保温，准时送达!</span>
+			<div class="icon-right">
+				<div class="glyphicon glyphicon-chevron-right"></div>
+			</div>
+		</div>
+		<div class="nav_left">
+			<ul>
+				<li><span><img src="./img/icon_hot.png" alt="">热销</span></li>
+				<li><span>桶</span></li>
+				<li><span>美味汉堡/卷</span></li>
+				<li><span>鸡翅/鸡排</span></li>
+				<li><span>原味鸡</span></li>
+				<li><span>小食/配餐</span></li>
+				<li><span>甜品/冰淇淋</span></li>
+				<li><span>缤纷饮料</span></li>
+				<li><span>童书套餐</span></li>
+				<li><span>新品上市</span></li>
+				<li><span>K咖啡</span></li>
+				<li><span>美味早餐</span></li>
+				<li><span>美味夜宵</span></li>
+				<li><span></span></li>
+				<li><span></span></li>
+			</ul>
+		</div>
+		<!-- 模板 -->
+		<div class="nav_right">
+			<div class="nav_name">
+				<p>热销</p>
+			</div>
+		</div>
+		<div id="myApp"></div>
+	</main>
+	<!-- 底部 -->
+	<footer>
+		<div class="navbar-fixed-bottom">
+			<div class="car">
+				<div class="icon">
+					<div class="icon_car"></div>
+				</div>
+				<div class="j-cart-empty cart-empty">购物车空空如也～</div>
+				<div class="cart-btns">
+                    <a class="cart-btn-unavail"><span class="inner">¥0起送</span></a>
+                </div>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript">
+		window.onload = function(){
+			let app = new Vue({
+				// el:Element->对指定页面元素进行Vue应用的构建
+				el:"#myApp",
+				// data: 是表对当前Vue应用中的数据设定的对象
+				data:{
+					
+				},
+				// methods:用于定义当前Vue的函数与方法
+				methods:{
+					
+				},
+				// 定义当前应用过滤器
+				filters:{
+					
+				}
+			});
+		}
+			
+	</script>
+</body>
+</html>
